@@ -1,0 +1,18 @@
+git init
+git branch Название ветки
+git chackout Название нужной ветки
+git add имя файла (Если несколько, то несколько раз, для нужных файлов)
+git status
+git commit -m "Коммит"
+git remote add origin Адресс
+git push origin Название ветки 
+
+
+ 
+То есть во второй части мы просто пропишем:
+git branch Название второй ветки
+git chackout Название второй ветки
+git add
+git status
+git commit -m "Коммит"
+git push origin Название второй ветки
